@@ -9,7 +9,7 @@ glimpse(totalPos)
 str(totalPos)
 #does this work on tibble? Yes
 totalPos$Posi
-
+#|prefectureNameE=="Osaka"|prefectureNameE=="Fukuoka"|prefectureNameE=="Hokaido"
 TokyoCases <- prefectures  %>% filter(prefectureNameE=="Tokyo")%>% select("testedPositive", "year","month","date")  
 View(TokyoCases)
 str(TokyoCases)
